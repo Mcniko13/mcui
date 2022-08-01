@@ -1,0 +1,41 @@
+body {
+	margin: 0px;
+}
+.conteiner{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.logo {
+display:flex;
+width:100%;
+justify-content:center;
+}
+
+.logo img {
+width:150px;
+height:70px;
+}
+H1 {
+	font-family: fantasy;
+	font-size: 3em;
+	color: black;
+	border-bottom: 2px deepskyblue;
+	width: 400px;
+	text-align: center;
+		margin: 1px;
+}
+img {
+	width: 450px ;
+	height: 300px;
+	margin: 10px;
+	margin-top: 10px;
+	transition: all 1s;
+}
+img:hover
+{
+	transform: scale(1.1);
+}
+.form-control{
+	justify-content: right;
+}
